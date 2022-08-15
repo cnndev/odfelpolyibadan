@@ -2270,7 +2270,7 @@ h6 {
 #mobile-nav {
 	position: fixed;
 	top: 0;
-	padding-top: 18px;
+	padding-top: 150px;
 	bottom: 0;
 	z-index: 998;
 	background: rgba(0, 0, 0, 0.8);
@@ -2337,6 +2337,7 @@ h6 {
 	width: 100%;
 	height: 100%;
 	z-index: 997;
+	padding-top: 150px;
 	top: 0;
 	left: 0;
 	position: fixed;
@@ -2487,6 +2488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content h1 {
+	/*margin-top: 300px;*/
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 1em;
@@ -4942,6 +4944,26 @@ dl.toggle.time-line:before {
 	.single-footer-widget {
 		margin-bottom: 30px
 	}
+}
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
 
 .footer-bottom {
